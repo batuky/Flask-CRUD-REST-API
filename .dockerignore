@@ -1,0 +1,14 @@
+# Docker ile ilişkili dosyaları dışarıda bırak
+.dockerignore
+docker-compose.yml
+
+# Local development dosyaları
+.env
+
+# Derleme ve önbellek dosyaları
+__pycache__/
+*.pyc
+
+# Log dosyaları ve geçici dosyalar
+logs/
+*.log
